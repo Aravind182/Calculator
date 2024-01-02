@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="screen">
+
+            <input id ="output" type="text" placeholder="0">
+            <button id="del_button" onclick="del()">DEL</button>
+            <button  id="del_button" onclick="Clear()">CL</button>
+            <button id ="color_button"  onclick="calculate('%')">%</button>
+            <button id ="color_button"  onclick="calculate('*')">*</button>
+            <button onclick="calculate('9')">9</button>
+            <button onclick="calculate('8')">8</button>
+            <button onclick="calculate('7')">7</button>
+            <button id ="color_button"  onclick="calculate('/')">/</button>
+            <button onclick="calculate('6')">6</button>
+            <button onclick="calculate('5')">5</button>
+            <button onclick="calculate('4')">4</button>
+            <button id ="color_button"  onclick="calculate('+')">+</button>
+            <button onclick="calculate('3')">3</button>
+            <button onclick="calculate('2')">2</button>
+            <button onclick="calculate('1')">1</button>
+            <button id ="color_button" onclick="calculate('-')">-</button>
+             <button onclick="calculate('0')">0</button>
+            <button onclick="calculate('.')">.</button>
+            <button class="equal" onclick="equal()">=</button>
+            
+
+            
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
